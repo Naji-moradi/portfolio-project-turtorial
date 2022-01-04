@@ -1,0 +1,56 @@
+.t_heroContainer {
+  padding-top: 50px;
+  height: 70vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.t_hero {
+  background: url(../../../assets/team.jpg) no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  padding: 40px;
+  transition: transform 2s;
+}
+
+.t_hero:hover {
+  transform: scale(1.15);
+}
+
+.t_heroStuff {
+  position: absolute;
+  text-align: center;
+  top: 50px;
+  /* left: 40px; */
+}
+
+.t_loveh1 {
+  font-size: 55px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.t_btn {
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  padding: 11px 30px;
+  background-color: #636363;
+  background-image: linear-gradient(to bottom, #636363, #000);
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.t_btn:hover {
+  background-image: linear-gradient(to bottom, #000, #000);
+}
+
+p {
+  font-family: sans-serif;
+}

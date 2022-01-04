@@ -1,0 +1,54 @@
+@media screen and (min-width: 769px) {
+  .pageImg {
+    margin-top: 50px;
+    background: url(../../../assets/012.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: table;
+    height: 450px;
+    width: 100%;
+  }
+  .hero {
+    background: rgba(0, 0, 0, 0.6);
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .contacth1,
+  .contactp {
+    color: #ffffff;
+  }
+}
+@media (max-width: 768px) {
+  .pageImg {
+    margin-top: 59px;
+  }
+  .pageImg {
+    background: url(../../../assets/teamwork.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: table;
+    height: 250px;
+    width: 100%;
+  }
+  .hero {
+    background: rgba(0, 0, 0, 0.6);
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .contactp,
+  .contacth1 {
+    color: #ffffff;
+  }
+  .contactp {
+    text-align: justify;
+    text-align-last: center;
+    padding: 5px;
+    font-size: 15px;
+  }
+}
