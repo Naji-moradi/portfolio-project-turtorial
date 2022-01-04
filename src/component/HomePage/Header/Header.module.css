@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+:root {
+  --primary-white: #fff;
+  --primary-orange: #f9ab00;
+  --primary-dark: rgba(255, 255, 255, 0);
+  --primary-red: #ef4035;
+  --primary-black: #000000;
+  --primary-hover-red: #f33501;
+  --primary-navbar-color: #1f3a4d;
+}
+
+.headerWrapper {
+  position: relative;
+  background: url(../../../assets/background.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding-bottom: 10px;
+}
+.mainInfo {
+  display: flex;
+  position: absolute;
+  top: 12rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  z-index: 1;
+}
+.headerh2 {
+  color: var(--primary-orange);
+  text-transform: uppercase;
+}
+
+/* ------------------typed text ---------------------------- */
+.typedText {
+  color: var(--primary-white);
+  font-size: 2rem;
+}
+@media (max-width: 768px) {
+  .headerh2 {
+    font-size: 1.3rem !important;
+  }
+  .typedText {
+    font-size: 1rem !important;
+  }
+  .mainInfo {
+    top: 5rem;
+  }
+}
+/* ------------------btn main offer button  ---------------------------- */
+.btnMainOffer {
+  border: 1px solid var(--primary-red);
+  border-radius: 10rem;
+  text-transform: uppercase;
+  padding: 0.525rem 0.85rem 0.65rem 0.85rem;
+  color: var(--primary-white);
+  text-decoration: none;
+  margin: 2rem;
+}
+.btnMainOffer:hover {
+  text-decoration: none;
+  background-color: var(--primary-orange);
+  color: var(--primary-black);
+  transition: 0.2s ease-in-out;
+}
+/* ------------------particle js---------------------------- */
+.tsparticles-canvas-el {
+  position: absolute;
+  width: 100vh;
+  height: 100vh;
+  z-index: 1;
+}
+@media (max-width: 768px) {
+  .particles-canvas {
+    display: none;
+  }
+}

@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+:root {
+  --primary-white: #fff;
+  --primary-orange: #f9ab00;
+  --primary-dark: rgba(255, 255, 255, 0);
+  --primary-red: #ef4035;
+  --primary-black: #000000;
+  --primary-hover-red: #f33501;
+  --primary-navbar-color: #1f3a4d;
+}
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.navLogo {
+  width: 6.5rem;
+}
+.navColor {
+  background-color: #1f3a4d;
+}
+.nav1 {
+  z-index: 10;
+}
+.navLink1 {
+  /* font-weight: 500; */
+  font-size: 1rem;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+.a1 {
+  margin-right: 0.0375rem;
+  margin-left: 0.75rem;
+  color: var(--primary-white) !important;
+  border-top: 0.1875rem solid var(--primary-dark);
+}
+.navbarBrand {
+  max-width: 17.25rem;
+  padding: 0;
+  height: 4rem;
+}
+@media (max-width: 768px) {
+  .navbarBrand {
+    width: 7rem;
+  }
+}
+.a1.active,
+.a1.active:focus {
+  border-bottom: 0.1875rem solid var(--primary-orange);
+}
+.a1:hover {
+  border-bottom: 0.1875rem solid var(--primary-orange);
+}

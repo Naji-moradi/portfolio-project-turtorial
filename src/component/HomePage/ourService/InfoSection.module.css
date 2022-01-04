@@ -1,0 +1,72 @@
+.counter {
+  padding: 50px 0px;
+  background-color: #fff;
+}
+.countCard {
+  box-shadow: 0 0 10px #ccc;
+  /* box-shadow: -7px -10px -15px -20px #e8e8e8; */
+  padding: 30px;
+  width: 100%;
+  background: #fff;
+  border-right: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  border-bottom-right-radius: 50px;
+  position: relative;
+  overflow: hidden;
+  z-index: 4;
+}
+.countCard::after {
+  content: "";
+  position: absolute;
+  background: #fff5a0;
+  left: 0px;
+  top: 0px;
+  width: 0px;
+  height: 100%;
+  transition: all 0.3s;
+  z-index: -1;
+}
+.countCard:hover::after {
+  background: #fff5a0;
+  width: 100%;
+  height: 100%;
+}
+.i {
+  display: block;
+  font-size: 30px;
+  color: #4caf50;
+  float: left;
+}
+.span {
+  font-size: 42px;
+  line-height: 24px;
+  display: block;
+  font-weight: 700;
+  color: #607d8b;
+  margin-left: 50px;
+}
+.p {
+  font-size: 14px;
+  text-align: right;
+}
+.h3 {
+  font-size: 20px;
+  margin-top: 36px;
+  text-transform: uppercase;
+  text-align: right;
+  color: #607d8b;
+}
+.a {
+  font-weight: 600;
+  display: block;
+  border-top: 2px dashed #4caf50;
+  margin-top: 20px;
+  padding-top: 20px;
+  color: #4caf50;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: right;
+}
+.a:hover {
+  color: #607d8b;
+}

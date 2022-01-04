@@ -1,0 +1,14 @@
+teamMembersSection {
+  z-index: 10 n !important;
+}
+.img {
+  margin-top: -50px;
+}
+.team_card:hover {
+  background: #1f3a4d;
+  color: #fff;
+}
+
+.fab {
+  color: #fff;
+}
